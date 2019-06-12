@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_email_reg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_email"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_name_reg"
+        android:hint="Name"
+        android:inputType="text"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_user"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_password_reg"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:met_textColorHint="@color/myTextColor"
+        app:met_baseColor="@color/myTextColor"
+        app:met_primaryColor="@color/myTextColor"
+        app:met_iconPadding="0dp"
+        app:met_iconRight="@drawable/ic_lock"
+        />
+
+
+
+
+</LinearLayout>
